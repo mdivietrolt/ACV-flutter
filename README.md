@@ -10,7 +10,13 @@ Both Android and iOS are supported.
 To use this plugin, add `flutter_unity` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
 
 ## Example
-Refer to the [example project](https://github.com/Glartek/flutter-unity/tree/master/example) and the [included Unity project](https://github.com/Glartek/flutter-unity/tree/master/example/unity/FlutterUnityExample).
+
+Copy unityExportACV110 into example/android/unityExport and run
+
+```shell
+flutter pub run flutter_unity:unity_export_transmogrify
+```
+<img src="./images/acv_screen.jpg" height="500px">
 
 ## Testing
 To test this plugin, do the following:
