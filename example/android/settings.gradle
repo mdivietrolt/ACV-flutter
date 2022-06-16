@@ -15,3 +15,5 @@ plugins.each { name, path ->
 }
 
 include ':unityExport'
+//include ':unityLibrary'
+//project(':unityLibrary').projectDir=new File('unityExport\\unityLibrary')
