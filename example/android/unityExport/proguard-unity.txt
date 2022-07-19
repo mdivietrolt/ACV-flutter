@@ -5,3 +5,5 @@
 -keep class com.google.androidgamesdk.ChoreographerCallback { *; }
 -keep class com.google.androidgamesdk.SwappyDisplayManager { *; }
 -ignorewarnings
+#added by mic
+-keep class com.unity3d.plugin.* { *; }
